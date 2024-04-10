@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+html {
+    font-size: calc(10 * 100vw / 390);
+}
+
+@media (min-width:768px) {
+    html {
+        font-size: calc(10 * 100vw / 1200);
+    }
+}
+
+@media (min-width:1200px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+/* ページ全体のスタイル ----------*/
+body {
+    font-family: "Noto Serif JP", serif;
+    line-height: 1.75;
+    color: #000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+li {
+    list-style: none;
+}
+
+
+/* 部品 */
+.container {
+    margin: 0 1.6rem;
+}
+
+.section-title {
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+.section-title__heading {
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .1rem;
+}
+
+.section-title__lead {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+
+/* ヘッダー ----------*/
+.header {
+    position: fixed;
+    top: 2.5%;
+    left: 32.1%;
+    z-index: 100;
+}
+
+.header__inner {
+    font-family: "Marcellus", serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: .41rem;
+}
+
+
+/* カバー ----------*/
+.cover {
+    position: relative;
+    padding-bottom: 15.7rem;
+}
+
+.catch {
+    position: absolute;
+    bottom: 9.1%;
+    left: 6%;
+    line-height: 1;
+}
+
+.catch__title {
+    margin-bottom: .8rem;
+    line-height: 1.3;
+    font-family: "Marcellus", serif;
+    font-size: 4.1rem;
+    font-weight: 400;
+    letter-spacing: 1.12rem;
+}
+
+.catch__lead {
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+
+
+/* shop ----------*/
+.shop {
+    margin-bottom: 5rem;
+}
+
+.container--blue {
+    background-color: #F0F4FF;
+    padding-bottom: 3.4rem;
+}
+
+.product {
+    padding-top: 1.7rem;
+    padding-left: 28%;
+    margin-bottom: 1.8rem;
+    color: #111;
+}
+
+.product__head {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -.35rem;
+}
+
+.product__foot {
+    font-size: 1.4rem;
+    text-indent: 3.4rem;
+}
+
+.product__foot span {
+    margin-left: .7rem;
+    letter-spacing: .1rem;
+}
+
+.shop__button {
+    display: block;
+    width: 30rem;
+    height: 5.8rem;
+    margin: 0 auto 2rem;
+    padding-left: 16.5%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: justify;
+    letter-spacing: -.45rem;
+    color: #fff;
+    background-color: #46C4DB;
+    border-radius: 3.4rem;
+}
+
+.shop__form {
+    display: block;
+    width: 30rem;
+    height: 5.8rem;
+    margin: 0 auto;
+    padding-top: 1.4rem;
+    padding-left: 32%;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: -.2rem;
+    color: #fff;
+    background-color: #5DD5AB;
+    border-radius: 3.4rem;
+}
+
+
+/* concept ----------*/
+.concept {
+    padding-top: 4.3rem;
+    padding-bottom: 34.5rem;
+    color: #fff;
+    background-image: url(/aseets/image/concept/concept_sp.jpg);
+    background-size: cover;
+}
+
+.primary-title {
+    line-height: 1.63;
+}
+
+.primary-title__heading {
+    letter-spacing: 0;
+}
+
+.primary-title__lead {
+    font-size: 2.4rem;
+    letter-spacing: -.45rem;
+    text-indent: -.4rem;
+}
+
+.concept__text {
+    font-size: 1.4rem;
+    margin-top: 1.1rem;
+    line-height: 2.3;
+    letter-spacing: -.335rem;
+    text-indent: -.2rem;
+}
+
+
+/* voice */
+.voice {
+    padding-top: 4.7rem;
+}
+
+.carousel {
+    width: 78.2%;
+    margin: 3.6rem auto;
+    padding-bottom: 6.8rem;
+    background-color: #DBF7F9;
+}
+
+.slick__avatar {
+    text-align: center;
+    text-indent: -1rem;
+    font-size: 1.4rem;
+    letter-spacing: -.3rem;
+}
+
+.slick-slide img {
+    margin: 2.8rem 10.5rem .6rem;
+}
+
+.slick__text {
+    font-size: 1.4rem;
+    margin: 12px 18px 14px 14px;
+    letter-spacing: -3.5px;
+    line-height: 2;
+}
+
+.slick-dots{
+    bottom: -3rem;
+    text-indent: -1.3rem;
+}
+
+.slick-dots li {
+    width: .7rem;
+}
+
+.slick-dots li button:before {
+    font-size: .9rem;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #00AFBF;
+}
+
+.slick-dots li button:before {
+    color: #EEE;
+}
+
+.slick-arrow {
+    background-color: #00AFBF;
+}
+
