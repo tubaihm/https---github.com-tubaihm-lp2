@@ -66,24 +66,19 @@ li {
 
 /* ヘッダー ----------*/
 .header {
-    position: fixed;
-    top: 2.5%;
-    left: 32.1%;
-    z-index: 100;
+    position: relative;
+    padding-bottom: 15.7rem;
+
 }
 
-.header__inner {
+.header__logo {
+    position: absolute;
+    top: 2.9%;
+    left: 32%;
     font-family: "Marcellus", serif;
     font-size: 2.4rem;
     font-weight: 400;
     letter-spacing: .41rem;
-}
-
-
-/* カバー ----------*/
-.cover {
-    position: relative;
-    padding-bottom: 15.7rem;
 }
 
 .catch {
@@ -177,7 +172,7 @@ li {
     padding-top: 4.3rem;
     padding-bottom: 34.5rem;
     color: #fff;
-    background-image: url(/aseets/image/concept/concept_sp.jpg);
+    background-image: url(/assets/image/concept/concept_sp.jpg);
     background-size: cover;
 }
 

@@ -17,7 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marcellus&family=Noto+Serif+JP&display=swap"
-        rel="stylesheet"> <!-- リセットCSS -->
+        rel="stylesheet">
+    <!-- リセットCSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
@@ -25,27 +26,24 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
     <!-- css -->
-    <link rel="stylesheet" href="/aseets/style/main.css">
+    <link rel="stylesheet" href="/assets/style/main.css">
 
 </head>
 
 <body>
     <header class="header">
-        <h1 class="header__inner">Kira-meki</h1>
+        <h1 class="header__logo">Kira-meki</h1>
+        <picture class="header__image">
+            <source media="(min-width: 768px)" srcset="/assets/image/header/mainVisual_pc.jpg">
+            <img src="/assets/image/header/mainVisual_sp.jpg" alt="メインビジュアル">
+        </picture>
+        <div class="catch">
+            <div class="catch__title">Kirameki<br>Cream</div>
+            <div class="catch__lead">肌のうるおい、煌めく。</div>
+        </div>
     </header>
 
     <main>
-        <section class="cover">
-            <picture class="cover__image">
-                <source media="(min-width: 768px)" srcset="/aseets/image/cover/mainVisual_pc.jpg">
-                <img src="/aseets/image/cover/mainVisual_sp.jpg" alt="">
-            </picture>
-            <div class="catch">
-                <div class="catch__title">Kirameki<br>Cream</div>
-                <div class="catch__lead">肌のうるおい、煌めく。</div>
-            </div>
-        </section>
-
         <section class="shop">
             <div class="container container--blue">
                 <div class="product">
@@ -79,7 +77,7 @@
                     <!-- 1人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/aseets/image/voice/voiceavatar1_sp.png" alt="">
+                            <img src="/assets/image/voice/voiceavatar1_sp.png" alt="">
                             <p>Aさん</p>
                         </div>
                         <div class="slick__text">
@@ -89,7 +87,7 @@
                     <!-- 2人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/aseets/image/voice/voiceavatar2_sp.png" alt="">
+                            <img src="/assets/image/voice/voiceavatar2_sp.png" alt="">
                             <p>Bさん</p>
                         </div>
                         <div class="slick__text">
@@ -99,7 +97,7 @@
                     <!-- 3人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/aseets/image/voice/voiceavatar3_sp.png" alt="">
+                            <img src="/assets/image/voice/voiceavatar3_sp.png" alt="">
                             <p>Cさん</p>
                         </div>
                         <div class="slick__text">
@@ -109,7 +107,7 @@
                     <!-- 4人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/aseets/image/voice/voiceavatar4_sp.png" alt="">
+                            <img src="/assets/image/voice/voiceavatar4_sp.png" alt="">
                             <p>Dさん</p>
                         </div>
                         <div class="slick__text">
@@ -119,7 +117,7 @@
                     <!-- 5人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/aseets/image/voice/voiceavatar5_sp.png" alt="">
+                            <img src="/assets/image/voice/voiceavatar5_sp.png" alt="">
                             <p>Eさん</p>
                         </div>
                         <div class=" slick__text">
@@ -129,7 +127,7 @@
                     <!-- 6人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/aseets/image/voice/voiceavatar6_sp.png" alt="">
+                            <img src="/assets/image/voice/voiceavatar6_sp.png" alt="">
                             <p>Fさん</p>
                         </div>
                         <div class="slick__text">
@@ -241,7 +239,7 @@
     <!-- SlickのJS -->
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    <script src="/aseets/script/main.js"></script>
+    <script src="/assets/script/main.js"></script>
 </body>
 
 </html>
