@@ -13,7 +13,7 @@ html {
 
 @media (min-width:1200px) {
     html {
-        font-size: 80%;
+        font-size: 62.5%;
     }
 }
 
@@ -71,6 +71,12 @@ li {
     padding-bottom: 15.7rem;
 }
 
+@media (min-width:768px) {
+    .header {
+        padding-bottom: 0;
+    }
+}
+
 .header img {
     width: 100%;
     height: auto;
@@ -86,11 +92,27 @@ li {
     letter-spacing: .41rem;
 }
 
+@media (min-width:768px) {
+    .header__logo {
+        top: 3.5%;
+        left: 44.5%;
+        font-size: 2.8rem;
+        letter-spacing: .51rem;
+    }
+}
+
 .catch {
     position: absolute;
     bottom: 9.1%;
     left: 6%;
     line-height: 1;
+}
+
+@media (min-width:768px) {
+    .catch {
+        bottom: 38.5%;
+        left: 14.9%;
+    }
 }
 
 .catch__title {
@@ -102,9 +124,24 @@ li {
     letter-spacing: 1.12rem;
 }
 
+@media (min-width:768px) {
+    .catch__title {
+        margin-bottom: 1.5rem;
+        font-size: 5rem;
+        letter-spacing: 1.4rem;
+    }
+}
+
 .catch__lead {
     font-size: 2rem;
     letter-spacing: .2rem;
+}
+
+@media (min-width:768px) {
+    .catch__lead {
+        font-size: 2.5rem;
+        letter-spacing: .25rem;
+    }
 }
 
 
@@ -113,10 +150,23 @@ li {
     margin-bottom: 5rem;
 }
 
+@media (min-width:768px) {
+    .shop {
+        padding-top: 4.8rem;
+    }
+}
 
 .container--blue {
     background-color: #F0F4FF;
     padding-bottom: 3.4rem;
+}
+
+@media (min-width:768px) {
+    .container--blue {
+        margin: 0 auto;
+        width: 66.7%;
+        display: flex;
+    }
 }
 
 .product {
@@ -126,15 +176,41 @@ li {
     color: #111;
 }
 
+@media (min-width:768px) {
+    .product {
+        padding-top: 4rem;
+        padding-left: 4.6rem;
+        margin-bottom: .6rem;
+        width: 25%;
+        line-height: 1.5;
+    }
+}
+
 .product__head {
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: -.35rem;
 }
 
+@media (min-width:768px) {
+    .product__head {
+        font-size: 2.4rem;
+        letter-spacing: -.45rem;
+    }
+}
+
 .product__foot {
     font-size: 1.4rem;
     text-indent: 3.4rem;
+}
+
+@media (min-width:768px) {
+    .product__foot {
+        margin-top: .6rem;
+        font-size: 1.6rem;
+        text-indent: .4rem;
+        letter-spacing: .1rem;
+    }
 }
 
 .product__foot span {
@@ -155,6 +231,7 @@ li {
     color: #fff;
     background-color: #46C4DB;
     border-radius: 3.4rem;
+    border: none;
 }
 
 .shop__form {
