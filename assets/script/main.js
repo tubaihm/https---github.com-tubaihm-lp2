@@ -7,9 +7,11 @@ $('.carousel').slick({
 });
 
 // アコーディオンメニュー
-$('.accordion-title').on('click', function (e) {
-    var content = $(this).next();
-    content.slideToggle();
+$('.question').on('click', function (e) {
+    var answer = $(this).next();
+    answer.slideToggle();
+
+    $(this).toggleClass('triangle-up')
 });
 
 
