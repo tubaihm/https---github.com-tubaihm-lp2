@@ -55,13 +55,14 @@ li {
     font-size: 3rem;
     font-weight: 700;
     text-align: center;
-    letter-spacing: .1rem;
+    letter-spacing: .15rem;
 }
 
 .section-title__lead {
     text-align: center;
     font-size: 1.6rem;
     font-weight: 600;
+    letter-spacing: .07rem;
 }
 
 
@@ -89,7 +90,7 @@ li {
     font-family: "Marcellus", serif;
     font-size: 2.4rem;
     font-weight: 400;
-    letter-spacing: .41rem;
+    letter-spacing: .47rem;
 }
 
 @media (min-width:768px) {
@@ -116,12 +117,12 @@ li {
 }
 
 .catch__title {
-    margin-bottom: .8rem;
-    line-height: 1.3;
+    margin-bottom: 1rem;
+    line-height: 1.25;
     font-family: "Marcellus", serif;
     font-size: 4.1rem;
     font-weight: 400;
-    letter-spacing: 1.12rem;
+    letter-spacing: 1.23rem;
 }
 
 @media (min-width:768px) {
@@ -134,7 +135,7 @@ li {
 
 .catch__lead {
     font-size: 2rem;
-    letter-spacing: .2rem;
+    letter-spacing: .6rem;
 }
 
 @media (min-width:768px) {
@@ -171,8 +172,8 @@ li {
 
 .product {
     padding-top: 1.7rem;
-    padding-left: 28%;
     margin-bottom: 1.8rem;
+    text-align: center;
     color: #111;
 }
 
@@ -189,7 +190,7 @@ li {
 .product__head {
     font-size: 1.8rem;
     font-weight: 600;
-    letter-spacing: -.35rem;
+    letter-spacing: .18rem;
 }
 
 @media (min-width:768px) {
@@ -201,7 +202,6 @@ li {
 
 .product__foot {
     font-size: 1.4rem;
-    text-indent: 3.4rem;
 }
 
 @media (min-width:768px) {
@@ -214,7 +214,7 @@ li {
 }
 
 .product__foot span {
-    margin-left: .7rem;
+    margin-left: .8rem;
     letter-spacing: .1rem;
 }
 
@@ -223,11 +223,8 @@ li {
     width: 30rem;
     height: 5.8rem;
     margin: 0 auto 2rem;
-    padding-left: 16.5%;
     font-size: 1.8rem;
     font-weight: 600;
-    text-align: justify;
-    letter-spacing: -.45rem;
     color: #fff;
     background-color: #46C4DB;
     border-radius: 3.4rem;
@@ -240,10 +237,9 @@ li {
     height: 5.8rem;
     margin: 0 auto;
     padding-top: 1.4rem;
-    padding-left: 32%;
+    text-align: center;
     font-size: 1.8rem;
     font-weight: 600;
-    letter-spacing: -.2rem;
     color: #fff;
     background-color: #5DD5AB;
     border-radius: 3.4rem;
@@ -253,7 +249,7 @@ li {
 /* concept ----------*/
 .concept {
     padding-top: 4.3rem;
-    padding-bottom: 34.5rem;
+    padding-bottom: 31rem;
     color: #fff;
     background-image: url(/assets/image/concept/concept_sp.jpg);
     background-size: cover;
@@ -269,16 +265,12 @@ li {
 
 .primary-title__lead {
     font-size: 2.4rem;
-    letter-spacing: -.45rem;
-    text-indent: -.4rem;
 }
 
 .concept__text {
     font-size: 1.4rem;
-    margin-top: 1.1rem;
+    margin-top: 1.3rem;
     line-height: 2.3;
-    letter-spacing: -.335rem;
-    text-indent: -.2rem;
 }
 
 
@@ -288,22 +280,16 @@ li {
     padding-bottom: 4.5rem;
 }
 
-.voice .section-title__lead {
-    text-indent: -.6rem;
-}
-
 .carousel {
     width: 78.2%;
     margin: 3.6rem auto;
-    padding-bottom: 6.8rem;
+    padding-bottom: 2.5rem;
     background-color: #DBF7F9;
 }
 
 .slick__avatar {
     text-align: center;
-    text-indent: -1rem;
     font-size: 1.4rem;
-    letter-spacing: -.3rem;
 }
 
 .slick-slide img {
@@ -313,11 +299,26 @@ li {
 
 .slick__text {
     font-size: 1.4rem;
-    margin: 12px 18px 14px 14px;
-    letter-spacing: -3.5px;
+    margin: 1.4rem 1.6rem 0 1.4rem;
     line-height: 2;
 }
 
+/* Slick矢印 */
+.slick-arrow {
+    position: absolute;
+    top: 45.5%;
+    cursor: pointer;
+}
+
+.prev-arrow {
+    left: -3.9rem;
+}
+
+.next-arrow {
+    right: -3.9rem;
+}
+
+/* slickドット */
 .slick-dots {
     bottom: -3rem;
     text-indent: -1.3rem;
@@ -339,21 +340,12 @@ li {
     color: #EEE;
 }
 
-.slick-arrow {
-    background-color: #00AFBF;
-}
-
 
 /* qa ----------*/
 .qa {
     padding-top: 2.8rem;
     padding-bottom: 1.2rem;
     background: linear-gradient(to right, rgb(244, 255, 232), rgb(198, 240, 254))
-}
-
-.qa .section-title__lead {
-    text-indent: -2.6rem;
-    letter-spacing: -.25rem;
 }
 
 .qa-wrap {
@@ -373,11 +365,11 @@ li {
 }
 
 .qa-content:not(:first-child) .question {
-    padding-bottom: 1.8rem;
+    padding-bottom: 1.7rem;
 }
 
-.qa-content:nth-child(3n+2) .question {
-    padding-top: 1.6rem;
+.qa-content:last-child .question {
+    padding-bottom: 1.6rem;
 }
 
 .answer {
@@ -386,7 +378,7 @@ li {
 
 .answer__inner {
     padding-top: 0;
-    padding-bottom: 5.9rem;
+    padding-bottom: 2.9rem;
 }
 
 .question__prev,
@@ -404,12 +396,14 @@ li {
 .answer__text {
     line-height: 1.85;
     font-size: 1.5rem;
-    letter-spacing: -.34rem;
-    padding-right: .2rem;
+}
+
+.question__text {
+    padding-top: .2rem;
 }
 
 .answer__text {
-    padding-right: .5rem;
+    padding-left: .2rem;
 }
 
 .question__icon {
@@ -418,7 +412,7 @@ li {
 }
 
 .triangle-up .question__icon {
-    padding-top: 2.4rem;
+    padding-top: 2.6rem;
     transform: rotate(180deg);
 }
 
@@ -465,31 +459,23 @@ li {
     font-size: 2.8rem;
     color: #fff;
     text-align: center;
-    letter-spacing: .51rem;
+    letter-spacing: .55rem;
+    text-indent: .5rem;
 }
 
 .contact__list {
     margin-top: 1.6rem;
     margin-bottom: 2rem;
     display: flex;
+    justify-content: center;
+    column-gap: 3rem;
     font-size: 1.2rem;
-    padding-left: 4.5rem;
-}
-
-.contact__list li:nth-child(2) {
-    margin-left: 3rem;
-    letter-spacing: -.1rem;
-}
-
-.contact__list li:last-child {
-    margin-left: 3.9rem;
-    letter-spacing: -.14rem;
 }
 
 .footer__foot {
     text-align: center;
     font-size: 1.1rem;
-    text-indent: 2.3rem;
-    letter-spacing: .06rem;
+    text-indent: .3rem;
+    letter-spacing: .1rem;
     color: #fff;
 }
