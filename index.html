@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>肌のうるおい、煌めく Kirameki Cream | Kira-meki</title>
-    <meta name="description" content="Kirameki Creamはお肌のうるおいを美しく保ちます。" />
+    <meta name="description" content="Kirameki Creamはお肌のうるおいを美しく保ちます。">
     <!-- ogp -->
     <meta property="og:title" content="肌のうるおい、煌めく Kirameki Cream | Kira-meki">
     <meta property="og:description" content="Kirameki Creamはお肌のうるおいを美しく保ちます。">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="URL" />
+    <meta property="og:url" content="https://example.com">
     <meta property="og:site_name" content="Kira-meki">
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <h1 class="header__logo">Kira-meki</h1>
         <picture class="header__image">
             <source media="(min-width: 768px)" srcset="/assets/image/header/mainVisual_pc.jpg">
@@ -50,19 +50,23 @@
                     <p class="product__head">キラメキクリーム</p>
                     <p class="product__foot">税込<span>4,000円</span></p>
                 </div>
-                <button class="shop__button">オンラインショップへ</button>
-                <form action="/cart/" class="shop__form">購入する</form>
+                <div class="button-group">
+                    <button class="shop__button">オンラインショップへ</button>
+                    <form action="/cart/" class="shop__form"><button type="submit">購入する</button></form>
+                </div>
             </div>
         </section>
 
         <section class="concept">
             <div class="container">
-                <div class="section-title primary-title">
-                    <h2 class="section-title__heading primary-title__heading">Keep Your Skin Beautiful.</h2>
-                    <p class="section-title__lead primary-title__lead">お肌を美しく保つ</p>
-                </div>
-                <div class="concept__text">
-                    ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                <div class="concept-block">
+                    <div class="section-title primary-title">
+                        <h2 class="section-title__heading primary-title__heading">Keep Your Skin Beautiful.</h2>
+                        <p class="section-title__lead primary-title__lead">お肌を美しく保つ</p>
+                    </div>
+                    <div class="concept__text">
+                        ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
+                    </div>
                 </div>
             </div>
         </section>
@@ -77,7 +81,10 @@
                     <!-- 1人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/assets/image/voice/voiceavatar1_sp.png" alt="">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar1_pc.png">
+                                <img src="/assets/image/voice/voiceavatar1_sp.png" alt="Aさん">
+                            </picture>
                             <p>Aさん</p>
                         </div>
                         <div class="slick__text">
@@ -87,7 +94,10 @@
                     <!-- 2人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/assets/image/voice/voiceavatar2_sp.png" alt="">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar2_pc.png">
+                                <img src="/assets/image/voice/voiceavatar2_sp.png" alt="Bさん">
+                            </picture>
                             <p>Bさん</p>
                         </div>
                         <div class="slick__text">
@@ -97,7 +107,10 @@
                     <!-- 3人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/assets/image/voice/voiceavatar3_sp.png" alt="">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar3_pc.png">
+                                <img src="/assets/image/voice/voiceavatar3_sp.png" alt="Cさん">
+                            </picture>
                             <p>Cさん</p>
                         </div>
                         <div class="slick__text">
@@ -107,7 +120,10 @@
                     <!-- 4人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/assets/image/voice/voiceavatar4_sp.png" alt="">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar4_pc.png">
+                                <img src="/assets/image/voice/voiceavatar4_sp.png" alt="Dさん">
+                            </picture>
                             <p>Dさん</p>
                         </div>
                         <div class="slick__text">
@@ -117,7 +133,10 @@
                     <!-- 5人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/assets/image/voice/voiceavatar5_sp.png" alt="">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar5_pc.png">
+                                <img src="/assets/image/voice/voiceavatar5_sp.png" alt="Eさん">
+                            </picture>
                             <p>Eさん</p>
                         </div>
                         <div class=" slick__text">
@@ -127,7 +146,10 @@
                     <!-- 6人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
-                            <img src="/assets/image/voice/voiceavatar6_sp.png" alt="">
+                            <picture>
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar6_pc.png">
+                                <img src="/assets/image/voice/voiceavatar6_sp.png" alt="Fさん">
+                            </picture>
                             <p>Fさん</p>
                         </div>
                         <div class="slick__text">
@@ -237,18 +259,20 @@
                     <p class="product__head">キラメキクリーム</p>
                     <p class="product__foot">税込<span>4,000円</span></p>
                 </div>
-                <button class="shop__button">オンラインショップへ</button>
-                <form action="/cart/" class="shop__form">購入する</form>
+                <div class="button-group">
+                    <button class="shop__button">オンラインショップへ</button>
+                    <form action="/cart/" class="shop__form"><button type="submit">購入する</button></form>
+                </div>
             </div>
         </section>
         <div class="button-to-top">
-            <a href="" id="button-to-top"><i class="bi bi-arrow-up-short"></i></a>
+            <a href="#header" id="button-to-top"><i class="bi bi-arrow-up-short"></i></a>
         </div>
     </main>
 
     <footer class="footer">
         <h1 class="footer__inner">Kira-meki</h1>
-        <nav class="conntact">
+        <nav class="contact">
             <ul class="contact__list">
                 <li><a href="/company/">会社概要</a></li>
                 <li><a href="/privacy-policy/">個人情報保護ポリシー</a></li>
