@@ -367,6 +367,12 @@ li {
     }
 }
 
+@media (min-width:768px) {
+        .voice .container {
+            margin: 0 auto;
+        }
+    }
+
 .carousel {
     width: 78.2%;
     margin: 3.6rem auto;
@@ -374,8 +380,8 @@ li {
 
 @media (min-width:768px) {
     .carousel {
-        width: 98rem;
         margin-top: 3.8rem;
+        width: 98rem;
     }
 }
 
@@ -386,6 +392,7 @@ li {
 
 @media (min-width:768px) {
     .slick-slide {
+        width: 30rem;
         margin-right: 4rem;
         padding-bottom: 3.8rem;
     }
@@ -438,7 +445,7 @@ li {
 
 @media (min-width:768px) {
     .slick-arrow {
-        top: 44.5%;
+        top: 43.5%;
         width: 5%;
     }
 }
@@ -471,7 +478,7 @@ li {
 
 @media (min-width:768px) {
     .slick-dots {
-        bottom: -3.9rem;
+        bottom: -3.8rem;
     }
 }
 
@@ -610,7 +617,7 @@ li {
 }
 
 .question__text {
-    padding-top: .2rem;
+    padding-top: .1rem;
     padding-right: 1rem;
 }
 
@@ -720,7 +727,7 @@ li {
 
 @media (min-width:768px) {
     .contact {
-        margin-left: 4rem;
+        margin-left: 4.5rem;
     }
 }
 

@@ -4,6 +4,7 @@ $(document).ready(function(){
         autoplay: false,
         arrows: true,
         dots: true,
+        variableWidth: true,
         prevArrow: '<img src="/assets/image/voice/arrow-left-circle-fill.svg" class="slide-arrow prev-arrow">',
         nextArrow: '<img src="/assets/image/voice/arrow-right-circle-fill.svg" class="slide-arrow next-arrow">',
         infinite: true, 
@@ -13,6 +14,7 @@ $(document).ready(function(){
             {
                 breakpoint: 768,
                 settings: {
+                    variableWidth: false,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                 }
