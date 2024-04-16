@@ -4,7 +4,6 @@ $(document).ready(function(){
         autoplay: false,
         arrows: true,
         dots: true,
-        fade: true,
         prevArrow: '<img src="/assets/image/voice/arrow-left-circle-fill.svg" class="slide-arrow prev-arrow">',
         nextArrow: '<img src="/assets/image/voice/arrow-right-circle-fill.svg" class="slide-arrow next-arrow">',
         infinite: true, 

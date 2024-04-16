@@ -185,10 +185,10 @@ li {
 @media (min-width:768px) {
     .container--blue {
         margin: 0 auto;
-        width: 66.7%;
+        width: 100rem;
         display: flex;
-        padding-top: 3.7rem;
-        padding-bottom: 3.6rem;
+        justify-content: space-between;
+        padding: 3.7rem 4.8rem 3.6rem;
     }
 }
 
@@ -201,7 +201,6 @@ li {
 
 @media (min-width:768px) {
     .product {
-        width: 30.4%;
         padding-top: 0;
         margin-bottom: 0;
         text-align: center;
@@ -247,9 +246,8 @@ li {
 @media (min-width:768px) {
     .button-group {
         display: flex;
-        width: 69.6%;
-        padding-top: .7rem;
-        padding-right: 3.2rem;
+        column-gap: 3.2rem;
+        align-items: center;
     }
 }
 
@@ -372,14 +370,24 @@ li {
 .carousel {
     width: 78.2%;
     margin: 3.6rem auto;
+}
+
+@media (min-width:768px) {
+    .carousel {
+        width: 98rem;
+        margin-top: 3.8rem;
+    }
+}
+
+.slick-slide {
     padding-bottom: 2.5rem;
     background-color: #DBF7F9;
 }
 
 @media (min-width:768px) {
-    .carousel {
-        width: 81.7%;
-        padding-bottom: 10px;
+    .slick-slide {
+        margin-right: 4rem;
+        padding-bottom: 3.8rem;
     }
 }
 
@@ -401,8 +409,8 @@ li {
 
 @media (min-width:768px) {
     .slick-slide img {
-        width: 30.5%;
-        margin: 4.2rem 10rem .5rem;
+        width: 33.5%;
+        margin: 4rem 10rem .5rem;
     }
 }
 
@@ -414,7 +422,10 @@ li {
 
 @media (min-width:768px) {
     .slick__text {
+        margin-top: 1rem;
+        margin-left: 1.7rem;
         font-size: 1.6rem;
+        line-height: 1.75;
     }
 }
 
@@ -502,7 +513,7 @@ li {
 @media (min-width:768px) {
     .qa-wrap {
         margin: 4rem auto;
-        width: 50%;
+        width: 60rem;
     }
 }
 
@@ -530,7 +541,7 @@ li {
     padding: 1.5rem 1.4rem 1.3rem 1.6rem;
 }
 
-.question{
+.question {
     position: relative;
 }
 
