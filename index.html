@@ -32,7 +32,7 @@
 
 <body>
     <header class="header" id="header">
-        <h1 class="header__logo">Kira-meki</h1>
+        <h1 class="header__logo"><img src="/assets/image/header/Kira-meki.svg" alt="Kira-meki"></h1>
         <picture class="header__image">
             <source media="(min-width: 768px)" srcset="/assets/image/header/mainVisual_pc.jpg">
             <img src="/assets/image/header/mainVisual_sp.jpg" alt="メインビジュアル">
@@ -271,15 +271,19 @@
     </main>
 
     <footer class="footer">
-        <h1 class="footer__inner">Kira-meki</h1>
-        <nav class="contact">
-            <ul class="contact__list">
-                <li><a href="/company/">会社概要</a></li>
-                <li><a href="/privacy-policy/">個人情報保護ポリシー</a></li>
-                <li><a href="/contact/">お問い合わせ</a></li>
-            </ul>
-        </nav>
-        <p class="footer__foot"><small>© 2023 Kira-meki Inc. All rights reserved.</small></p>
+        <div class="footer-container">
+            <div class="footer__logo"><img src="/assets/image/footer/Kira-meki.svg" alt="Kira-meki"></div>
+            <div class="footer-container__inner">
+                <nav class="contact">
+                    <ul class="contact__list">
+                        <li><a href="/company/">会社概要</a></li>
+                        <li><a href="/privacy-policy/">個人情報保護ポリシー</a></li>
+                        <li><a href="/contact/">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+                <p class="footer__foot"><small>© 2023 Kira-meki Inc. All rights reserved.</small></p>
+            </div>
+        </div>
     </footer>
 
     <!-- jQuery -->

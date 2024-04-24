@@ -104,20 +104,15 @@ li {
 
 .header__logo {
     position: absolute;
-    top: 2.9%;
+    top: 3%;
     left: 32%;
-    font-family: "Marcellus", serif;
-    font-size: 2.4rem;
-    font-weight: 400;
-    letter-spacing: .47rem;
 }
 
 @media (min-width:768px) {
     .header__logo {
-        top: 3.5%;
-        left: 44.5%;
-        font-size: 2.8rem;
-        letter-spacing: .55rem;
+        top: 4.5%;
+        left: 44.45%;
+        width: 16.7rem;
     }
 }
 
@@ -315,10 +310,11 @@ li {
 }
 
 .primary-title {
-    line-height: 1.63;
+    line-height: 1.6;
 }
 
 .primary-title__heading {
+    margin-bottom: .2rem;
     letter-spacing: 0;
 }
 
@@ -368,10 +364,10 @@ li {
 }
 
 @media (min-width:768px) {
-        .voice .container {
-            margin: 0 auto;
-        }
+    .voice .container {
+        margin: 0 auto;
     }
+}
 
 .carousel {
     width: 78.2%;
@@ -561,7 +557,7 @@ li {
 }
 
 .qa-content:not(:first-child) .question {
-    padding-bottom: 1.7rem;
+    padding-bottom: 1.8rem;
 }
 
 @media (min-width:768px) {
@@ -581,7 +577,7 @@ li {
 
 .answer__inner {
     padding-top: 0;
-    padding-bottom: 2.9rem;
+    padding-bottom: 3.1rem;
 }
 
 @media (min-width:768px) {
@@ -627,7 +623,7 @@ li {
 
 .question__icon {
     position: absolute;
-    top: 23%;
+    top: 22%;
     right: 4%;
     font-size: 1.5rem;
 }
@@ -701,27 +697,37 @@ li {
 
 @media (min-width:768px) {
     .footer {
-        display: flex;
-        justify-content: space-between;
-        padding: 2.4rem 18.2rem;
+        padding-top: 2.4rem;
+        padding-bottom: 2.8rem;
     }
 }
 
-.footer__inner {
-    font-family: "Marcellus", serif;
-    font-size: 2.8rem;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-    letter-spacing: .55rem;
-    text-indent: .5rem;
+@media (min-width:768px) {
+    .footer-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 3.2rem;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 @media (min-width:768px) {
-    .footer__inner {
-        font-size: 3.2rem;
-        letter-spacing: .63rem;
-        text-indent: 0;
+    .footer-container__inner {
+        display: flex;
+        column-gap: 15.6rem;
+    }
+}
+
+.footer__logo {
+    margin-top: .8rem;
+    margin-bottom: 2.2rem;
+    text-align: center;
+}
+
+@media (min-width:768px) {
+    .footer__logo img {
+        width: 19.1rem;
     }
 }
 
