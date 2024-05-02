@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marcellus&family=Noto+Serif+JP&display=swap"
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marcellus&family=Noto+Serif+JP:wght@400;500;600&display=swap"
         rel="stylesheet">
     <!-- リセットCSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
@@ -32,15 +32,15 @@
 
 <body>
     <header class="header" id="header">
-        <h1 class="header__logo"><img src="/assets/image/header/Kira-meki.svg" alt="Kira-meki"></h1>
+        <div class="header__logo"><img src="/assets/image/header/Kira_meki.svg" alt="Kira-meki"></div>
         <picture class="header__image">
-            <source media="(min-width: 768px)" srcset="/assets/image/header/mainVisual_pc.jpg">
-            <img src="/assets/image/header/mainVisual_sp.jpg" alt="メインビジュアル">
+            <source media="(min-width: 768px)" srcset="/assets/image/header/main_Visual_pc.jpg">
+            <img src="/assets/image/header/main_Visual_sp.jpg" alt="">
         </picture>
-        <div class="catch">
-            <div class="catch__title">Kirameki<br>Cream</div>
+        <h1 class="catch">
+            <div class="catch__title">KiramekiCream</div>
             <div class="catch__lead">肌のうるおい、煌めく。</div>
-        </div>
+        </h1>
     </header>
 
     <main>
@@ -51,7 +51,7 @@
                     <p class="product__foot">税込<span>4,000円</span></p>
                 </div>
                 <div class="button-group">
-                    <button class="shop__button">オンラインショップへ</button>
+                    <button class="shop__button"><a href="#">オンラインショップへ</a></button>
                     <form action="/cart/" class="shop__form"><button type="submit">購入する</button></form>
                 </div>
             </div>
@@ -60,10 +60,10 @@
         <section class="concept">
             <div class="container">
                 <div class="concept-block">
-                    <div class="section-title primary-title">
-                        <h2 class="section-title__heading primary-title__heading">Keep Your Skin Beautiful.</h2>
+                    <h2 class="section-title primary-title">
+                        <p class="section-title__heading primary-title__heading">Keep Your Skin Beautiful.</p>
                         <p class="section-title__lead primary-title__lead">お肌を美しく保つ</p>
-                    </div>
+                    </h2>
                     <div class="concept__text">
                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                     </div>
@@ -73,17 +73,17 @@
 
         <section class="voice">
             <div class="container">
-                <div class="section-title">
-                    <h2 class="section-title__heading">Voices</h2>
+                <h2 class="section-title">
+                    <p class="section-title__heading">Voices</p>
                     <p class="section-title__lead">お客様の声</p>
-                </div>
+                </h2>
                 <div class="carousel">
                     <!-- 1人目 -->
                     <div class="slick-content">
                         <div class="slick__avatar">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar1_pc.png">
-                                <img src="/assets/image/voice/voiceavatar1_sp.png" alt="Aさん">
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voice_avatar_01_pc.png">
+                                <img src="/assets/image/voice/voice_avatar_01_sp.png" alt="">
                             </picture>
                             <p>Aさん</p>
                         </div>
@@ -95,8 +95,8 @@
                     <div class="slick-content">
                         <div class="slick__avatar">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar2_pc.png">
-                                <img src="/assets/image/voice/voiceavatar2_sp.png" alt="Bさん">
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voice_avatar_02_pc.png">
+                                <img src="/assets/image/voice/voice_avatar_02_sp.png" alt="">
                             </picture>
                             <p>Bさん</p>
                         </div>
@@ -108,8 +108,8 @@
                     <div class="slick-content">
                         <div class="slick__avatar">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar3_pc.png">
-                                <img src="/assets/image/voice/voiceavatar3_sp.png" alt="Cさん">
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voice_avatar_03_pc.png">
+                                <img src="/assets/image/voice/voice_avatar_03_sp.png" alt="">
                             </picture>
                             <p>Cさん</p>
                         </div>
@@ -121,8 +121,8 @@
                     <div class="slick-content">
                         <div class="slick__avatar">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar4_pc.png">
-                                <img src="/assets/image/voice/voiceavatar4_sp.png" alt="Dさん">
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voice_avatar_04_pc.png">
+                                <img src="/assets/image/voice/voice_avatar_04_sp.png" alt="">
                             </picture>
                             <p>Dさん</p>
                         </div>
@@ -134,8 +134,8 @@
                     <div class="slick-content">
                         <div class="slick__avatar">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar5_pc.png">
-                                <img src="/assets/image/voice/voiceavatar5_sp.png" alt="Eさん">
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voice_avatar_05_pc.png">
+                                <img src="/assets/image/voice/voice_avatar_05_sp.png" alt="">
                             </picture>
                             <p>Eさん</p>
                         </div>
@@ -147,8 +147,8 @@
                     <div class="slick-content">
                         <div class="slick__avatar">
                             <picture>
-                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voiceavatar6_pc.png">
-                                <img src="/assets/image/voice/voiceavatar6_sp.png" alt="Fさん">
+                                <source media="(min-width: 768px)" srcset="/assets/image/voice/voice_avatar_06_pc.png">
+                                <img src="/assets/image/voice/voice_avatar_06_sp.png" alt="">
                             </picture>
                             <p>Fさん</p>
                         </div>
@@ -162,10 +162,10 @@
 
         <section class="qa">
             <div class="container">
-                <div class="section-title">
-                    <h2 class="section-title__heading">Q&A</h2>
+                <h2 class="section-title">
+                    <p class="section-title__heading">Q&A</p>
                     <p class="section-title__lead">よくあるご質問</p>
-                </div>
+                </h2>
                 <div>
                     <div class="qa-wrap">
                         <!-- 質問1 -->
@@ -260,19 +260,19 @@
                     <p class="product__foot">税込<span>4,000円</span></p>
                 </div>
                 <div class="button-group">
-                    <button class="shop__button">オンラインショップへ</button>
+                    <button class="shop__button"><a href="#">オンラインショップへ</a></button>
                     <form action="/cart/" class="shop__form"><button type="submit">購入する</button></form>
                 </div>
             </div>
         </section>
         <div class="button-to-top">
-            <a href="#header" id="button-to-top"><i class="bi bi-arrow-up-short"></i></a>
+            <a href="#" id="button-to-top"><i class="bi bi-arrow-up-short"></i></a>
         </div>
     </main>
 
     <footer class="footer">
         <div class="footer-container">
-            <div class="footer__logo"><img src="/assets/image/footer/Kira-meki.svg" alt="Kira-meki"></div>
+            <div class="footer__logo"><img src="/assets/image/footer/Kira_meki.svg" alt="Kira-meki"></div>
             <div class="footer-container__inner">
                 <nav class="contact">
                     <ul class="contact__list">

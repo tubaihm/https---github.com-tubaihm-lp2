@@ -47,7 +47,8 @@ li {
 
 @media (min-width:768px) {
     .container {
-        margin: 0 15rem;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }
 
@@ -104,14 +105,14 @@ li {
 
 .header__logo {
     position: absolute;
-    top: 3%;
-    left: 32%;
+    top: 4%;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 @media (min-width:768px) {
     .header__logo {
         top: 4.5%;
-        left: 44.45%;
         width: 16.7rem;
     }
 }
@@ -131,16 +132,19 @@ li {
 }
 
 .catch__title {
+    width: 260px;
     margin-bottom: 1rem;
     line-height: 1.25;
     font-family: "Marcellus", serif;
     font-size: 4.1rem;
     font-weight: 400;
     letter-spacing: 1.23rem;
+    overflow-wrap: break-word;
 }
 
 @media (min-width:768px) {
     .catch__title {
+        width: 320px;
         margin-bottom: 1.2rem;
         font-size: 5rem;
         letter-spacing: 1.5rem;
@@ -161,7 +165,7 @@ li {
 }
 
 
-/* shop ----------*/
+/* 商品購入 ----------*/
 .shop {
     margin-bottom: 5rem;
 }
@@ -284,13 +288,14 @@ li {
 }
 
 
-/* concept ----------*/
+/* コンセプト ----------*/
 .concept {
     padding-top: 4.3rem;
     padding-bottom: 31rem;
     color: #fff;
     background-image: url(/assets/image/concept/concept_sp.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 @media (min-width:768px) {
@@ -350,7 +355,7 @@ li {
 }
 
 
-/* voice */
+/* 口コミ ----------*/
 .voice {
     padding-top: 4.7rem;
     padding-bottom: 4.5rem;
@@ -495,7 +500,7 @@ li {
 }
 
 
-/* qa ----------*/
+/* Q&A ----------*/
 .qa {
     padding-top: 2.8rem;
     padding-bottom: 1.2rem;
@@ -546,6 +551,7 @@ li {
 
 .question {
     position: relative;
+    cursor: pointer;
 }
 
 @media (min-width:768px) {
@@ -645,7 +651,7 @@ li {
 }
 
 
-/* shop ----------*/
+/* 商品購入 ----------*/
 
 .secondary-shop {
     margin-top: 5rem;
@@ -661,7 +667,7 @@ li {
 
 
 
-/* pagetop ----------*/
+/* トップへ戻るボタン ----------*/
 .button-to-top {
     position: sticky;
     bottom: 1rem;
@@ -680,6 +686,7 @@ li {
 }
 
 #button-to-top {
+    display: none;
     padding: .3rem .4rem;
     font-size: 3.2rem;
     background-color: #0071CE;
@@ -688,7 +695,7 @@ li {
 
 
 
-/* footer ----------*/
+/* フッター ----------*/
 .footer {
     padding-top: 1.6rem;
     padding-bottom: 2.4rem;

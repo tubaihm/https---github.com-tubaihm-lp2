@@ -1,13 +1,13 @@
 // slickslider
-$(document).ready(function(){
+$(document).ready(function () {
     $('.carousel').slick({
         autoplay: false,
         arrows: true,
         dots: true,
         variableWidth: true,
-        prevArrow: '<img src="/assets/image/voice/arrow-left-circle-fill.svg" class="slide-arrow prev-arrow">',
-        nextArrow: '<img src="/assets/image/voice/arrow-right-circle-fill.svg" class="slide-arrow next-arrow">',
-        infinite: true, 
+        prevArrow: '<img src="/assets/image/voice/arrow_left_circle_fill.svg" class="slide-arrow prev-arrow">',
+        nextArrow: '<img src="/assets/image/voice/arrow_right_circle_fill.svg" class="slide-arrow next-arrow">',
+        infinite: true,
         slidesToShow: 3,
         slidesToScroll: 3,
         responsive: [
@@ -32,13 +32,11 @@ $('.question').on('click', function (e) {
 });
 
 
-$(document).ready(function() {
-    $('#button-to-top').hide();
-    $(window).scroll(function() {
-        if ($(this).scrollTop() > 100) {
-            $('#button-to-top').fadeIn();
-        } else {
-            $('#button-to-top').fadeOut();
-        }
-    });
+// トップへ戻るボタン
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 100) {
+        $('#button-to-top').fadeIn();
+    } else {
+        $('#button-to-top').fadeOut();
+    }
 });
