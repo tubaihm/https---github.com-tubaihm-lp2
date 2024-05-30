@@ -9,14 +9,13 @@ $(document).ready(function () {
         nextArrow: '<img src="/assets/image/voice/arrow_right_circle_fill.svg" class="slide-arrow next-arrow">',
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
                     variableWidth: false,
                     slidesToShow: 1,
-                    slidesToScroll: 1,
                 }
             }
         ]
