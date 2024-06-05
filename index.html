@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 
 <head>
     <meta charset="UTF-8">
@@ -23,8 +23,8 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <!-- SlickのCSS -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
     <!-- css -->
     <link rel="stylesheet" href="/assets/style/main.css">
 
@@ -38,31 +38,34 @@
             <img src="/assets/image/header/main_Visual_sp.jpg" alt="">
         </picture>
         <h1 class="catch">
-            <div class="catch__title">KiramekiCream</div>
-            <div class="catch__lead">肌のうるおい、煌めく。</div>
+            <span class="catch__title">
+                <span>Kirameki</span>
+                <span>Cream</span>
+            </span>
+            <span class="catch__lead">肌のうるおい、煌めく。</span>
         </h1>
     </header>
 
     <main>
-        <section class="shop">
+        <div class="shop">
             <div class="container container--blue">
                 <div class="product">
                     <p class="product__head">キラメキクリーム</p>
                     <p class="product__foot">税込<span>4,000円</span></p>
                 </div>
                 <div class="button-group">
-                    <button class="shop__button"><a href="#">オンラインショップへ</a></button>
+                    <div class="shop__button"><a href="#">オンラインショップへ</a></div>
                     <form action="/cart/" class="shop__form"><button type="submit">購入する</button></form>
                 </div>
             </div>
-        </section>
+        </div>
 
         <section class="concept">
             <div class="container">
                 <div class="concept-block">
                     <h2 class="section-title primary-title">
-                        <p class="section-title__heading primary-title__heading">Keep Your Skin Beautiful.</p>
-                        <p class="section-title__lead primary-title__lead">お肌を美しく保つ</p>
+                        <span class="section-title__heading primary-title__heading">Keep Your Skin Beautiful.</span>
+                        <span class="section-title__lead primary-title__lead">お肌を美しく保つ</span>
                     </h2>
                     <div class="concept__text">
                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
@@ -74,8 +77,8 @@
         <section class="voice">
             <div class="container">
                 <h2 class="section-title">
-                    <p class="section-title__heading">Voices</p>
-                    <p class="section-title__lead">お客様の声</p>
+                    <span class="section-title__heading">Voices</span>
+                    <span class="section-title__lead">お客様の声</span>
                 </h2>
                 <div class="carousel">
                     <!-- 1人目 -->
@@ -174,8 +177,8 @@
         <section class="qa">
             <div class="container">
                 <h2 class="section-title">
-                    <p class="section-title__heading">Q&A</p>
-                    <p class="section-title__lead">よくあるご質問</p>
+                    <span class="section-title__heading">Q&A</span>
+                    <span class="section-title__lead">よくあるご質問</span>
                 </h2>
                 <div>
                     <div class="qa-wrap">
@@ -264,18 +267,18 @@
             </div>
         </section>
 
-        <section class="shop secondary-shop">
+        <div class="shop secondary-shop">
             <div class="container container--blue">
                 <div class="product">
                     <p class="product__head">キラメキクリーム</p>
                     <p class="product__foot">税込<span>4,000円</span></p>
                 </div>
                 <div class="button-group">
-                    <button class="shop__button"><a href="#">オンラインショップへ</a></button>
+                    <div class="shop__button"><a href="#">オンラインショップへ</a></div>
                     <form action="/cart/" class="shop__form"><button type="submit">購入する</button></form>
                 </div>
             </div>
-        </section>
+        </div>
         <div class="button-to-top">
             <a href="#" id="button-to-top"><i class="bi bi-arrow-up-short"></i></a>
         </div>
@@ -300,7 +303,7 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- SlickのJS -->
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
     <script src="/assets/script/main.js"></script>
 </body>
